@@ -1,6 +1,8 @@
 ````markdown
 ## Quick‑start: QSDsan‑tutorials
 
+2025-07-07 실행확인.
+
 ### 요구 사항
 - **Anaconda**(Python 3.12 기준)  
 - **uv** 패키지 매니저(최신판)
