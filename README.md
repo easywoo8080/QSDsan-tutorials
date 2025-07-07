@@ -1,5 +1,4 @@
-다음은 요청하신 대로 **영어 전체 위**, **한글 전체 아래**로 분리한 버전입니다.
-
+````markdown
 ---
 
 ## Quick‑start: QSDsan‑tutorials (English)
@@ -25,8 +24,8 @@ conda create -n qsdsan_env python=3.12 -y
 conda activate qsdsan_env
 
 # 3. Synchronize dependencies  
-uv sync
-```
+uv sync --dev
+````
 
 ### ⚠️ Important: Pin Biosteam Version
 
@@ -50,6 +49,16 @@ conda activate qsdsan_env
 # venv (Windows)
 .venv\Scripts\activate
 ```
+
+### ▶️ Launch Jupyter Notebook
+
+To start working with the tutorials interactively, run:
+
+```bash
+jupyter notebook
+```
+
+This will open the Jupyter Notebook interface in your browser where you can run and edit the tutorial notebooks.
 
 ---
 
@@ -76,7 +85,7 @@ conda create -n qsdsan_env python=3.12 -y
 conda activate qsdsan_env
 
 # 3. 의존성 동기화  
-uv sync
+uv sync --dev
 ```
 
 ### ⚠️ 중요: Biosteam 버전 고정
@@ -101,3 +110,14 @@ conda activate qsdsan_env
 # venv (Windows)
 .venv\Scripts\activate
 ```
+
+### ▶️ 주피터 노트북 실행
+
+튜토리얼을 인터랙티브하게 실행하려면 아래 명령어로 주피터 노트북을 시작하십시오.
+
+```bash
+jupyter notebook
+```
+
+웹 브라우저에서 노트북 인터페이스가 열리며, 여기서 튜토리얼을 실행하고 편집할 수 있습니다.
+
